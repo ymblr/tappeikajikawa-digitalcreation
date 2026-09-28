@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* CSS Document */
+html {
+  font-size: 62.5%;
+  width: 100%;
+  box-sizing: border-box
+}
+body {
+  color: #333333;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+  font-weight: 500;
+  font-size: 1.6em;
+  line-height: 2.4rem;
+  /* text-align: center; */
+  background-color: #fafafa;
+}  
+section h2 {
+  font-size: 2.4rem;
+}
+a:hover {
+  opacity: 0.5;
+}
+.none {
+  display: none;
+}
