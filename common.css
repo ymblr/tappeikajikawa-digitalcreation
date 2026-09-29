@@ -3,7 +3,8 @@
 html {
   font-size: 62.5%;
   width: 100%;
-  box-sizing: border-box
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 body {
   color: #333333;
@@ -11,8 +12,7 @@ body {
   font-weight: 500;
   font-size: 1.6em;
   line-height: 2.4rem;
-  /* text-align: center; */
-  background-color: #fafafa;
+  background-color: #e5e5e5;
 }  
 section h2 {
   font-size: 2.4rem;
@@ -22,4 +22,9 @@ a:hover {
 }
 .none {
   display: none;
+}
+
+p {
+  margin: 0;
+  line-height: 1;
 }

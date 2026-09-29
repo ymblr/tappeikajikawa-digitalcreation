@@ -1,122 +1,149 @@
+/* body */
 
-.mvimage {
-    width: 1200px;
-    margin: auto;
-    padding-top: 160px;
-    position: relative;
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
 
-.mvimage img{
+/* header */
+
+.header{
+    position: fixed;
+    top: 50%;
+    left: 5%;
+    width: 20%;
+    height: fit-content;
+    transform: translateY(-50%);
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+}
+
+.header_text{
+    padding: 20% 15%;
+    border: 1px solid #070707;
+}
+
+.header h1{
+    text-decoration: none;
+    font-size: 100%;
+    font-weight: 500;
+    margin: 0%;
+}
+
+.header_post{
+    color: #929292;
+    font-size: 40%;
+    font-weight: 300;
+}
+
+.header ul{
+    list-style: none;
+    padding: 10% 0%;
+}
+
+.header li{
+    margin: 0% 0%;
+    padding-top: 2%;
+}
+
+.header a{
+    text-decoration: none;
+    color: #070707;
+    font-size: 80%;
+    font-weight: 300;
+}
+
+.header a:hover{
+    text-decoration: underline;
+    text-shadow: 
+        0.5px 0 0 currentColor,
+        -0.5px 0 0 currentColor;
+}
+
+.header_copyright{
+    color: #929292;
+    font-size: 40%;
+    font-weight: 300;
+    padding-top: 7%;
+}
+
+
+
+/* main */
+
+main{
+    margin: 0% 5%;
+    margin-left: calc(25% + 5%);
+}
+
+/* section */
+
+section{
+    padding: 5%;
+    margin: 3% 0%;
+}
+
+/* Youtube */
+
+.youtube{
     width: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
 }
 
-.logoimage {
-    position: absolute;
-    transform: translate(-50%,-50%);
-    left: 50%;
-    top: 25%;
-}
+/* top */
 
-.mvtext{
-    position: absolute;
-    text-align: center;
-    bottom: 25px;
-    right: 0px;
-    left: 0px;
-    text-shadow: 0 0 8px gray;
-}
-
-.mvtext h1{
-    color: #FFFFFF;
-    font-size: 6.8rem;
-    font-weight: 200;
-    letter-spacing: 0.8rem;
-}
-
-.mvtext p{
-    color: #FFFFFF;
-    font-size: 2.4rem;
-    padding: 60px 0px;
-}
-
-/* ========================
-    About 
-    =======================*/
-
-.about{
-    width: 1200px;
-    padding-top: 100px;
-    margin: auto;
-}
-
-.about_text_rapper{
+.top{
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+    border: 1px solid #070707;
+    margin-top: 10%;
     display: flex;
-    justify-content: space-between;
 }
 
-.abouttext{
-    width: 55%;
-    padding-top: 4%;
+.top h1{
+    text-decoration: none;
+    font-size: 200%;
+    font-weight: 500;
 }
 
-.abouttext h1{
-    color: #000000;
-    font-size: 2.6rem;
-    letter-spacing: 0.4rem;
-    font-weight: 800;
+.top_belong{
+    font-size: 100%;
+    font-weight: 300;
+    margin: 10% 0%;
 }
 
-.abouttext p{
-    color: #000000;
-    font-size: 2rem;
-    padding: 30px 0px;
+.top_about{
+    font-size: 100%;
+    font-weight: 300;
+    line-height: 150%;
+    margin: 10% 0%;
 }
 
-.kodawariimage{
-    padding-left: 30px;
+.top_tools{
+    font-size: 120%;
+    font-weight: 500;
+    margin: 3% 0%;
 }
 
-.about_picture{
-    display: flex;
-    justify-content: center;
+.top ul{
+    list-style: none;
+    font-size: 100%;
+    font-weight: 300;
 }
 
-.about_pciture img{
-    width: 90%;
+/* showreel */
+
+.showreel{
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+    border: 1px solid #070707;
+    margin-top: 0%;
 }
 
-.shoplogo{
-    text-align: center;
-    margin-top: 8%;
-}
+/* works */
 
-.box1 {
-    padding: 0.5em 1em;
-    margin: 2em 0;
-    font-weight: bold;
-    border: solid 3px #000000;
-}
+/* archive */
 
-.box1 {
-    padding: 2em 2em;
-    margin: 2em 0;
-    font-weight: bold;
-    border: solid 3px #000000;
-}
-.box1 p {
-    line-height: 3rem;
-    margin: 0; 
-    padding: 0;
-}
-
-.box2 {
-    padding: 2em 2em;
-    margin: 2em 0;
-    font-weight: bold;
-    border: solid 3px #000000;
-}
-.box2 p {
-    line-height: 3rem;
-    margin: 0; 
-    padding: 0;
-}
+/* other */
