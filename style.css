@@ -362,3 +362,23 @@ section{
     margin-bottom: 5%;
     padding: 3%;
 }
+
+.other h2{
+    font-size: 120%;
+    font-weight: 600;
+    color: #070707;
+    margin: 3% 0%;
+}
+
+.other_about{
+    font-size: 100%;
+    font-weight: 300;
+    color: #070707;
+}
+
+.other_tools{
+    font-size: 80%;
+    font-weight: 300;
+    color: #929292;
+    margin: 3% 0%;
+}
